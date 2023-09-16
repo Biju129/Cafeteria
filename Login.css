@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+  
+.bgimg{
+    background-image: url("images/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+form{
+    align-items: center ;
+}
+
+.bg-img{
+    position: relative;
+    left: 200;
+    margin: 20px;
+    padding: 16px;
+    background-color: rgb(240, 240, 240);
+    align-items: center;
+    align-content: center;
+    height:300px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 200px;
+    align-items: left;
+    border-color: 2px black;
+    border-radius: 25px;
+    text-align: justify;
+    border-spacing: 12px;
+}
+h1{
+    text-align: justify;
+}  
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+  /* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    padding: 20px 8%;
+    background-color: #ecad00;
+}
+nav .menu-image{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+nav .logo-image{
+    margin: 40px;
+    margin-top: 155px;
+    width: 120px;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 50%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 0 20px;
+
+}
+nav ul li a{
+    text-decoration:none ;
+    color: #008080;
+}
